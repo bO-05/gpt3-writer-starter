@@ -6,7 +6,11 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = '';
+const basePromptPrefix =
+// `
+// Write an in-depth target market and potential value proposition for the next business idea. The business idea is utilizing AI, and it's about:
+// `
+`Tulis target pasar yang mendalam dan proposisi nilai potensial untuk ide bisnis berikut. Ide Bisnis berikut ini memanfaatkan kecerdasan buatan (AI), dan ini tentang:`
 
 const generateAction = async (req, res) => {
   // Run first prompt
