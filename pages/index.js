@@ -40,21 +40,15 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate a business idea that leverages AI</h1>
+            <h1>Generate a business Plan</h1>
           </div>
           <div className="header-subtitle">
             <h2>
               Write a short description of the business idea, we'll generate the
-              target market and potential value proposition.
+              business plan.
             </h2>
             <h2>
-              (ex. "Personalized nutrition coaching service": A personalized
-              nutrition coaching service that uses AI to generate personalized
-              meal plans based on a user's nutritional needs and preferences.
-              Target market is health-conscious individuals looking to improve
-              their diet and reach specific health goals. Value proposition is
-              the use of AI to create highly customized and effective meal plans
-              at an affordable price.).
+              (e.g: personalized nutrition coaching service, social media management tool, personal finance management tool, etc).
             </h2>
           </div>
         </div>
